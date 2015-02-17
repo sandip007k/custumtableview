@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		4181109C1A6D1393002EAFBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4181109B1A6D1393002EAFBF /* main.m */; };
 		4181109F1A6D1393002EAFBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4181109E1A6D1393002EAFBF /* AppDelegate.m */; };
-		418110A21A6D1393002EAFBF /* custumtableview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 418110A01A6D1393002EAFBF /* custumtableview.xcdatamodeld */; };
 		418110A51A6D1393002EAFBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 418110A41A6D1393002EAFBF /* ViewController.m */; };
 		418110A81A6D1393002EAFBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418110A61A6D1393002EAFBF /* Main.storyboard */; };
 		418110AA1A6D1393002EAFBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418110A91A6D1393002EAFBF /* Images.xcassets */; };
 		418110AD1A6D1393002EAFBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 418110AB1A6D1393002EAFBF /* LaunchScreen.xib */; };
 		418110B91A6D1393002EAFBF /* custumtableviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 418110B81A6D1393002EAFBF /* custumtableviewTests.m */; };
+		418110C71A6D1474002EAFBF /* CurrentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 418110C61A6D1474002EAFBF /* CurrentData.m */; };
+		418110CA1A6D14F8002EAFBF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 418110C91A6D14F8002EAFBF /* TableViewController.m */; };
+		418110CD1A6D1EE7002EAFBF /* uitableview.m in Sources */ = {isa = PBXBuildFile; fileRef = 418110CC1A6D1EE7002EAFBF /* uitableview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +35,6 @@
 		4181109B1A6D1393002EAFBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4181109D1A6D1393002EAFBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4181109E1A6D1393002EAFBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		418110A11A6D1393002EAFBF /* custumtableview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = custumtableview.xcdatamodel; sourceTree = "<group>"; };
 		418110A31A6D1393002EAFBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		418110A41A6D1393002EAFBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		418110A71A6D1393002EAFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +43,12 @@
 		418110B21A6D1393002EAFBF /* custumtableviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = custumtableviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		418110B71A6D1393002EAFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		418110B81A6D1393002EAFBF /* custumtableviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = custumtableviewTests.m; sourceTree = "<group>"; };
+		418110C51A6D1474002EAFBF /* CurrentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentData.h; sourceTree = "<group>"; };
+		418110C61A6D1474002EAFBF /* CurrentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentData.m; sourceTree = "<group>"; };
+		418110C81A6D14F8002EAFBF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		418110C91A6D14F8002EAFBF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		418110CB1A6D1EE7002EAFBF /* uitableview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uitableview.h; sourceTree = "<group>"; };
+		418110CC1A6D1EE7002EAFBF /* uitableview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = uitableview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +72,8 @@
 		4181108D1A6D1393002EAFBF = {
 			isa = PBXGroup;
 			children = (
+				418110CB1A6D1EE7002EAFBF /* uitableview.h */,
+				418110CC1A6D1EE7002EAFBF /* uitableview.m */,
 				418110981A6D1393002EAFBF /* custumtableview */,
 				418110B51A6D1393002EAFBF /* custumtableviewTests */,
 				418110971A6D1393002EAFBF /* Products */,
@@ -90,8 +99,11 @@
 				418110A61A6D1393002EAFBF /* Main.storyboard */,
 				418110A91A6D1393002EAFBF /* Images.xcassets */,
 				418110AB1A6D1393002EAFBF /* LaunchScreen.xib */,
-				418110A01A6D1393002EAFBF /* custumtableview.xcdatamodeld */,
 				418110991A6D1393002EAFBF /* Supporting Files */,
+				418110C51A6D1474002EAFBF /* CurrentData.h */,
+				418110C61A6D1474002EAFBF /* CurrentData.m */,
+				418110C81A6D14F8002EAFBF /* TableViewController.h */,
+				418110C91A6D14F8002EAFBF /* TableViewController.m */,
 			);
 			path = custumtableview;
 			sourceTree = "<group>";
@@ -223,9 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4181109F1A6D1393002EAFBF /* AppDelegate.m in Sources */,
-				418110A21A6D1393002EAFBF /* custumtableview.xcdatamodeld in Sources */,
+				418110C71A6D1474002EAFBF /* CurrentData.m in Sources */,
 				418110A51A6D1393002EAFBF /* ViewController.m in Sources */,
+				418110CA1A6D14F8002EAFBF /* TableViewController.m in Sources */,
 				4181109C1A6D1393002EAFBF /* main.m in Sources */,
+				418110CD1A6D1EE7002EAFBF /* uitableview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,19 +442,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		418110A01A6D1393002EAFBF /* custumtableview.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				418110A11A6D1393002EAFBF /* custumtableview.xcdatamodel */,
-			);
-			currentVersion = 418110A11A6D1393002EAFBF /* custumtableview.xcdatamodel */;
-			path = custumtableview.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4181108E1A6D1393002EAFBF /* Project object */;
 }
